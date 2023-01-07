@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#title {
+  display: block;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+#para {
+  display: block;
+  text-align: center;
+}
+
+#btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#test {
+  display: block;
+  text-align: center;
+}
