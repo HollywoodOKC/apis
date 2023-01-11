@@ -15,4 +15,4 @@ const buttonSaying = () => {
   console.log(`Button Clicked!`);
 }
 
-document.addEventListener("click", buttonSaying);
+button.addEventListener("click", buttonSaying);
