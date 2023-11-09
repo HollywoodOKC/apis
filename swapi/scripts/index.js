@@ -3,7 +3,7 @@
 const button = document.querySelector('#btn');
 
 const buttonSaying = () => {
-  axios.get('https://swapi.dev/api/people').then(res => {
+  axios.get('https://swapi.dev/api/people/#').then(res => {
     for (let t = 0; t < res.data.results.length; t++) {
       axios.get(res.data.results[t].url).then(response => {
         const para = document.createElement("h2");
